@@ -184,6 +184,7 @@ a{
 }
 /* 主視覺 */
 .header-globalnavi{
+    display: flex;
     display: none;
     /* opacity: 0; */
     width:100%;
@@ -191,7 +192,6 @@ a{
     position: fixed;
     top: 0;
     left: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
