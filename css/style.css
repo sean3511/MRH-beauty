@@ -19,7 +19,7 @@ a{
 }
 .header{
     z-index: 1000000;
-    width: 100%;
+    /* width: 100%; */
     position: fixed;
     top: 41px;
     left: 0;
@@ -75,6 +75,41 @@ a{
     margin: 0 auto;
     padding: 0 4%;
 }
+/* 手機板HAM*/
+.ham {
+    display: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 10000000;
+  }
+  .hamRotate.active {
+    transform: rotate(45deg);
+  }
+  .line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:rgb(132, 139, 141);
+    stroke-width:3;
+    stroke-linecap:round;
+  }
+  .ham1 .top {
+    stroke-dasharray: 40 139;
+  }
+  .ham1 .bottom {
+    stroke-dasharray: 40 180;
+  }
+  .ham1.active .top {
+    stroke-dashoffset: -98px;
+  }
+  .ham1.active .bottom {
+    stroke-dashoffset: -138px;
+  }
+  /* 手機板HAM*/
 /* 主視覺 */
 .mainvisual{
     height: 100vh;
@@ -148,11 +183,20 @@ a{
     text-align: right;
 }
 /* 主視覺 */
-
-
-
-
-
+.header-globalnavi{
+    display: none;
+    /* opacity: 0; */
+    width:100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 100;
+}
 
 /* 背景 */
 #svgContainer{
@@ -193,3 +237,14 @@ a{
     background-image: radial-gradient(circle at top left,#fff 0,hsla(0,0%,100%,0) 50%);
 }
 /* 背景 */
+@media(max-width: 1024px) {
+   .ham{
+    display: block;
+   }
+   .header-navi{
+    display: none;
+   }
+   .header-btn{
+    display: none;
+   }
+  }
