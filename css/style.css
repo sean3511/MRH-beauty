@@ -65,6 +65,8 @@ a{
     text-decoration: none;
 }
 .header-logo{
+    display: flex;
+    align-items: center;
     min-width: 200px;
     width: 200px;
     height: 70px;
@@ -247,4 +249,10 @@ a{
    .header-btn{
     display: none;
    }
+   .header{
+    top: 8.26667vw;
+   }.header-logo{
+    min-width: 100px;
+    width: 100px;
+}
   }
