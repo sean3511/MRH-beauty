@@ -114,7 +114,6 @@ a{
   /* 手機板HAM*/
 /* 主視覺 */
 .mainvisual{
-    height: 100vh;
     width: 100%;
     /* background-color: #C0A757; */
     position: relative;
@@ -140,17 +139,10 @@ a{
 }
 .mainvisual-product-img{
     position: absolute;
-    width: 203.9px;
-    height: 486px;
-    left: 374px;
-    top: 83px;
     filter: drop-shadow(35px 39px 22px rgba(0, 0, 0, 0.1));
 }
 .mainvisual-news{
-    width: 370px;
     position: absolute;
-    right: 130px;
-    bottom: 87px;
 }
 .mainvisual-news a{
     padding: 30px;
@@ -239,6 +231,22 @@ a{
     background-image: radial-gradient(circle at top left,#fff 0,hsla(0,0%,100%,0) 50%);
 }
 /* 背景 */
+@media(min-width: 1025px){
+    .mainvisual{
+        height: 100vh;
+    }
+    .mainvisual-news{
+        width: 370px;
+        right: 130px;
+        bottom: 87px;
+    }
+    .mainvisual-product-img {
+        width: 203.9px;
+        height: 486px;
+        left: 374px;
+        top: 83px;
+    }
+}
 @media(max-width: 1024px) {
    .ham{
     display: block;
@@ -251,8 +259,31 @@ a{
    }
    .header{
     top: 8.26667vw;
-   }.header-logo{
+   }
+   .header-logo{
     min-width: 100px;
     width: 100px;
-}
+   }
+   .mainvisual-product{
+    width: 70.66667vw;
+    height: 111.73334vw;
+    position: relative;
+    margin: 22.66667vw auto 0;
+    /* background-color: red; */
+    }
+    .mainvisual-product-logo {
+        width: 70.66667vw;
+        top: 0;
+        left: 0;
+    }
+    .mainvisual-product-img {
+        width: 41.86667vw;
+        /* height: 90vw; */
+        bottom: 0;
+        left: 18.66667vw;
+    }
+    .mainvisual-news{
+        position: relative;
+        margin: 18vw 8vw 0;
+    }
   }
