@@ -1,6 +1,6 @@
 // ham切換
 $(".ham").click(function(){
-    $(".header-globalnavi").fadeToggle(300);
+    $(".header-globalnavi").fadeToggle(300).css('display', 'flex');
 });
 // 字體數量限制
 // $(".mainvisual-news-title").each(function(){
