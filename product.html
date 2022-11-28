@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MRH beauty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="美妝產品">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0870b31da1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<header id="header" class="header wrapper">
+    <h1 class="header-logo">
+        <a href="index.html">
+            <img class="logo" src="/image/logo.png" alt="">
+        </a>
+    </h1>
+    <ul class="header-navi">
+        <li>
+            <a href="index.html#aboutus" >關於我們</a>
+        </li>
+        <li>
+            <a href="index.html#product-choose" >保養方式</a>
+        </li>
+        <li>
+            <a href="index.html">產品介紹</a>
+        </li>
+        <li>
+            <a href="media-inform.html">流行資訊</a>
+        </li>
+    </ul>
+    <a class="header-btn" href="index.html">
+           <p>前往官方商城</p> 
+    </a>
+    <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60" onclick="this.classList.toggle('active')">
+        <path
+              class="line top"
+              d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+        <path
+              class="line middle"
+              d="m 30,50 h 40" />
+        <path
+              class="line bottom"
+              d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+    </svg>
+    <nav class="header-globalnavi">
+        <ul class="header-navi-mobile">
+            <li>
+                <a href="index.html">首頁</a>
+            </li>
+            <li>
+                <a href="index.html#aboutus" >關於我們</a>
+            </li>
+            <li>
+                <a href="index.html#product-choose" >保養方式</a>
+            </li>
+            <li>
+                <a href="index.html">產品介紹</a>
+            </li>
+            <li>
+                <a href="media-inform.html">流行資訊</a>
+            </li>
+        </ul>
+
+        <div class="header-btn-group">
+            <div class="mobile-social-media mf-social-side-list ">
+                <ul>
+                <li>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                </ul>
+            </div>
+            <a class="header-btn-mobile" href="index.html">
+                <p>前往官方商城</p> 
+            </a>
+        </div>
+    </nav>
+      
+</header>
+<div id="container">
+    <div id="Content">
+        <section class="main-product wrapper">
+            <ul class="slides">
+                <input type="radio" name="radio-btn" id="img-1" checked />
+                <li class="slide-container">
+                        <div class="slide">
+                            <div class="slide-img-gp">
+                                <img class="slide-img-it5" src="/image/main_product/image05.png" alt="">
+                                <img class="slide-bg" src="/image/main_product_bg.png" alt="">
+                            </div>
+                        </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-2" />
+                <li class="slide-container">
+                        <div class="slide">
+                            <div class="slide-img-gp">
+                                <img class="slide-img-it5" src="/image/main_product/image01.png" alt="">
+                                <img class="slide-bg" src="/image/main_product_bg.png" alt="">
+                            </div>
+                        </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-3" />
+                <li class="slide-container">
+                        <div class="slide">
+                            <div class="slide-img-gp">
+                                <img class="slide-img-it5" src="/image/main_product/image09.png" alt="">
+                                <img class="slide-bg" src="/image/main_product_bg.png" alt="">
+                            </div>
+                        </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-4" />
+                <li class="slide-container">
+                        <div class="slide">
+                            <div class="slide-img-gp">
+                                <img class="slide-img-it5" src="/image/main_product/image07.png" alt="">
+                                <img class="slide-bg" src="/image/main_product_bg.png" alt="">
+                            </div>
+                        </div>
+                </li>
+            
+                <li class="nav-dots">
+                  <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                  <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                  <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                  <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                </li>
+            </ul>
+            <div class="main-pd-gp-top">
+                <input type="radio" name="main-font-group" id="fnt01" checked>
+                <div class="main-product_group">
+                    <div class="main-pd-area1">
+                        <h2 class="main-pd-title">膠原光采修復精華液</h2>
+                        <h3 class="main-pd-subtitle">嫩白潔淨保養 重生肌膚生命</h3>
+                        <p class="maib-pd-content">全方位修護 讓肌膚再現光采
+                            使用Liposome微脂囊技術，雙層包覆多種精華滲透肌底。
+                            天然賽洛美淡化斑點，燕窩緊緻拉提。
+                            高效修復，無刺激性。
+                        </p>
+                    </div>
+                    <div class="main-pd-area2">
+                        <h2 class="main-pd-price">NT$2,689</h2>
+                        <a class="price-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        <div class="main-pd-content">
+                            <p> 容量：35ml <br>
+                                產地 : 台灣 <br>
+                                保存期限：36個月<br>
+                                *醫美雷射術後保養效果佳。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="radio" name="main-font-group" id="fnt02">
+                <div class="main-product_group">
+                    <div class="main-pd-area1">
+                        <h2 class="main-pd-title">膠原柔白面膜</h2>
+                        <h3 class="main-pd-subtitle">10分鐘浸潤 零死角水感舒活</h3>
+                        <p class="maib-pd-content">
+                            凍狀面膜 輕鬆打造肌膚水床
+                            十分鐘美白、補水、嫩膚 三效合一
+                            完美肌膚狀態 妝感更服貼
+                        </p>
+                    </div>
+                    <div class="main-pd-area2">
+                        <h2 class="main-pd-price">NT$1,290</h2>
+                        <a class="price-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        <div class="main-pd-content">
+                            <p> 容量：30ml <br>
+                                產地 : 台灣<br>
+                                保存期限：36個月
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="radio" name="main-font-group" id="fnt03">
+                <div class="main-product_group">
+                    <div class="main-pd-area1">
+                        <h2 class="main-pd-title">緊緻修護滋養油</h2>
+                        <h3 class="main-pd-subtitle">細緻潤膚 啟動深層修護</h3>
+                        <p class="maib-pd-content">
+                            純植物油調和，高親膚性。
+                            一滴改善缺水危肌，鞏固皮脂健康。
+                            持久緊緻肌膚、淡化細紋。
+                        </p>
+                    </div>
+                    <div class="main-pd-area2">
+                        <h2 class="main-pd-price">NT$1,590</h2>
+                        <a class="price-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        <div class="main-pd-content">
+                            <p> 容量：50ml <br>
+                                產地 : 台灣<br>
+                                保存期限：36個月
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="radio" name="main-font-group" id="fnt04">
+                <div class="main-product_group">
+                    <div class="main-pd-area1">
+                        <h2 class="main-pd-title">海洋膠原植萃輕盈控油噴霧</h2>
+                        <h3 class="main-pd-subtitle">零油光零NG 重生肌膚自信</h3>
+                        <p class="maib-pd-content">
+                            一噴清爽 活化肌膚
+                            減少皮脂分泌 代謝老廢角質
+                            平衡肌膚油水比 妝前妝後不脫妝
+                        </p>
+                    </div>
+                    <div class="main-pd-area2">
+                        <h2 class="main-pd-price">NT$1,489</h2>
+                        <a class="price-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        <div class="main-pd-content">
+                            <p> 容量：80ml <br>
+                                產地 : 台灣<br>
+                                保存期限：36個月
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product-list">
+            <h2 class="topics-title">所有商品</h2>
+            <div class="topics-top">
+                <div class="grid-group">
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image" src="/image/main_product/image04.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">淨透潔顏霜</h3>
+                            <h3 class="pds-list-price">NT$600</h3>
+
+                        <h3 class="product-content-intro">嫩白潔淨保養 重生肌膚生命
+                            石竹花的天然皂素，溫和清潔。
+                            讓肌膚毛孔中粉刺不再有 !
+                            洗臉保濕不緊繃，保養雙倍效果。
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:100g | 產地:台灣 | 保存期限:3年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image image-size-width" src="/image/main_product/image01.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">膠原柔白面膜</h3>
+                            <h3 class="pds-list-price">NT$1,290</h3>
+
+                        <h3 class="product-content-intro">10分鐘浸潤 零死角水感舒活
+                            凍狀面膜 輕鬆打造肌膚水床
+                            十分鐘美白、補水、嫩膚 三效合一
+                            完美肌膚狀態 妝感更服貼
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:30ml | 產地:台灣 | 保存期限:3年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image" src="/image/main_product/image03.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">櫻花膠原潤澤晶露</h3>
+                            <h3 class="pds-list-price">NT$1,890</h3>
+
+                        <h3 class="product-content-intro">高機能化妝露 提升肌膚質感
+                            介於化妝水與精華液之間的質地
+                            替肌膚補水，長效保濕潤澤
+                            “櫻花”抗糖化可擊退暗沉，提亮膚色。                            
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:120ml | 產地:台灣 | 保存期限:3年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image" src="/image/main_product/image02.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">櫻花膠原嫩白精萃乳</h3>
+                            <h3 class="pds-list-price">NT$1,590</h3>
+
+                        <h3 class="product-content-intro">超水感精華乳 養成原生美肌
+                            特有櫻花多酚「抗糖化、抗氧化、抗老化」
+                            代謝粗糙角質，維持肌膚柔嫩
+                            有效淡化黑色素，隱形紋路                                                    
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:50ml | 產地:台灣 | 保存期限:3年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image" src="/image/main_product/image05.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">膠原光采修復精華液</h3>
+                            <h3 class="pds-list-price">NT$2,689</h3>
+
+                        <h3 class="product-content-intro">全方位修護 讓肌膚再現光采
+                            使用Liposome微脂囊技術，雙層包覆多種精華滲透肌底。
+                            天然賽洛美淡化斑點，燕窩緊緻拉提。
+                            高效修復，無刺激性。
+                            *醫美雷射術後保養效果佳。                                                                 
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:35ml | 產地:台灣 | 保存期限:3年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image image-size-width" src="/image/main_product/image06.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">膠原光采煥膚滋養霜</h3>
+                            <h3 class="pds-list-price">NT$2,589</h3>
+
+                        <h3 class="product-content-intro">瞬效鎖水 重拾肌膚彈性
+                            絲滑霜狀質地 柔潤肌膚
+                            維護皮脂結構 將水分鎖緊
+                            面霜亦可為眼霜 加強眼周細部保養                                                                                  
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:30ml | 產地:台灣 | 保存期限:3年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image" src="/image/main_product/image07.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">海洋膠原植萃輕盈控油噴霧</h3>
+                            <h3 class="pds-list-price">NT$1,489</h3>
+
+                        <h3 class="product-content-intro">零油光零NG 重生肌膚自信
+                            一噴清爽 活化肌膚
+                            減少皮脂分泌 代謝老廢角質
+                            平衡肌膚油水比 妝前妝後不脫妝                                                                                  
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:80ml | 產地:台灣 | 保存期限:3年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image" src="/image/main_product/image08.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">海洋膠原植萃淨痘美膚輕凝露</h3>
+                            <h3 class="pds-list-price">NT$1,689</h3>
+
+                        <h3 class="product-content-intro">集效保濕 溫和抗痘不留痕
+                            輕盈凝露質地 控油後的補水幫手
+                            多種植萃成分 有效抑菌
+                            降低冒痘機率，隱形粗大毛孔                                                                                                      
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:80ml | 產地:台灣 | 保存期限:3年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image" src="/image/main_product/image11.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">舒眠好安神</h3>
+                            <h3 class="pds-list-price">NT$1,600</h3>
+
+                        <h3 class="product-content-intro">邁向優質睡眠 健康新關鍵
+                            植萃物理性配方 無西藥成分
+                            舒緩情緒焦慮、緊張
+                            經人體試驗達7成有效改善睡眠品質
+                            ※建議睡前半小時至一小時食用一包                                                                 
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:5g*30包 | 產地:台灣 | 保存期限:2年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image" src="/image/main_product/image11.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">膠原蛋白益生菌粉</h3>
+                            <h3 class="pds-list-price">NT$799</h3>
+
+                        <h3 class="product-content-intro">增強好菌活力，腸道好氣色
+                            消化順暢，便便不塞車。
+                            殲滅壞菌，增強免疫力。
+                            改善腸道生態，營養好吸收。
+                                                                                                                                               
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:3g*30包 | 產地:台灣 | 保存期限:2年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                    <div class="tile ">
+                        <a href="https://www.instagram.com/reel/CjFy9hfLfkL/?igshid=MDJmNzVkMjY%3D" target="_blank">
+                        <div class="news-pic ">
+                            <div class="pdbg main-pic">
+                                <img class="pds-image" src="/image/main_product/image12.png" alt="">
+                            </div>
+                        </div>
+                        <h3 class="pds-list-title">能量韌髮機能水</h3>
+                            <h3 class="pds-list-price">NT$680</h3>
+
+                        <h3 class="product-content-intro">強健髮根、維護頭皮健康、創造毛髮蓬鬆感。
+                            依照需要部位的需求，每處按壓一下。洗髮後吹至八分乾，噴在頭皮，均勻按摩頭皮直至吸收；
+                            乾髮時，直接噴在頭皮上，均勻按摩頭皮即可。
+                         
+                                                                                                                                               
+                        </h3>
+                        <p class="pd-detail-inform"> 容量:50ml | 保存期限:3年
+                            </p>
+                        <a class="product-btn" href="index.html">
+                            <p>前往官方商城</p> 
+                        </a>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </section>
+    </div>
+</div>
+<div id="footer">
+    <p>Copyright © 2020 HOME CHEN. All rights reserved.</p>
+</div>
+<div class="curtain" id="curtain">
+    <svg class="container" id="svgContainer"></svg>
+</div>
+<div class="mf-social-side-list destop-switch">
+    <ul>
+    <li>
+    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </li>
+    <li>
+    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </li>
+    <li>
+    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </li>
+    <li>
+    </ul>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/greensock-js/src/minified/TweenMax.min.js"> </script>
+<script src="curtain.js"></script>
+<script src="java.js"></script>
+<script src="fresh_ana.js"></script>
+<script src="move_pg_area.js"></script>
+</body>
+</html>
