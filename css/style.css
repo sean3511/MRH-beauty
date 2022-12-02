@@ -384,6 +384,10 @@ input[type=radio]:checked+label {
 .mf-social-side-list ul li a[href*='twitter'] {
     background: #00acee;
 }
+.mf-social-side-list ul li a[href*='line'] {
+    /* background: #00acee; */
+    color: #07B53B;
+}
 /* 手機版header-btn */
 .header-btn-group{
     position: absolute;
