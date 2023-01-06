@@ -1,5 +1,6 @@
 @import url("reset.css");
 body{
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
     background-color: #e7eef3;
     min-height: 100vh;
     font-family: "Noto Sans TC", sans-serif;
@@ -9,6 +10,7 @@ img, svg {
     vertical-align: top;
 }
 p{
+    /* font-family: 'ZCOOL QingKe HuangYou', sans-serif; */
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.125em !important;
@@ -25,6 +27,9 @@ h2{
 }
 a{
     text-decoration: none;
+}
+.margin-top{
+    margin-top: 36px;
 }
 .wrap {
   margin-top: 36px;
@@ -760,6 +765,13 @@ input[type=radio]:checked+label {
     margin-top: 20vh;
     text-align: center;
 }
+.AS-content-group{
+    margin-top: 20vh;
+    text-align: center;
+}
+.AS-first-group{
+    text-align: center;
+}
 .AS-image-group{
     margin-top: 36px;
     margin-bottom: 36px;
@@ -922,11 +934,19 @@ input#img-4:checked ~ .nav-dots #img-dot-4
 {
 	background: #C0A757;
 }
+  .ab-image-img{
+        width:80%;
+    }
+    .ab-image-colcum{
+        margin-top: 40px;
+    }
 
 /*  */
 /* 背景 */
 @media(min-width: 1025px){
-   
+    .flex-colcum{
+        flex-direction: column;
+    }
     .AS-image-group{
         display: flex;
     }
@@ -946,6 +966,12 @@ input#img-4:checked ~ .nav-dots #img-dot-4
         align-items: center;
         gap: 40px;
     }
+    .AS-content-group{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+ 
     #product-choose{
         margin-top: 240px;
         min-height: 100vh;
@@ -956,8 +982,18 @@ input#img-4:checked ~ .nav-dots #img-dot-4
     .ab-font-content{
         width: 50%;
     }
+    .full-width{
+        width: 100%;
+    }
     .ab-image{
         width: 50%;
+    }
+    .ab-image-colcum{
+        width: 100%;
+    }
+    .ab-image-img{
+        /* width:100%; */
+        width:80%;
     }
     .grid-group{
         grid-template-columns: repeat(3, minmax(250px, 1fr));
@@ -1027,6 +1063,7 @@ input#img-4:checked ~ .nav-dots #img-dot-4
         right: 130px;
     }
 }
+ 
 @media(max-width: 1024px) {
     .ab-image{
         margin-top: 40px;
