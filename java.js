@@ -41,16 +41,24 @@ $(".header-choice").click(function(){
 // 製作選單filter
 $("#All").click(function(){
     $(".S-media").fadeIn(150);
+    $(".CANS-cob").fadeIn(150);
     $(".news").fadeIn(150);
 });
 $("#social-media").click(function(){
     // $(".S-media").fadein(300);
     $(".news").fadeOut(150);
+    $(".CANS-cob").fadeOut(150);
     $(".S-media").fadeIn(150);
 });
 $("#news").click(function(){
     $(".S-media").fadeOut(150);
+    $(".CANS-cob").fadeOut(150);
     $(".news").fadeIn(150);
+});
+$("#CANS-cob").click(function(){
+    $(".S-media").fadeOut(150);
+    $(".news").fadeIn(150);
+    $(".CANS-cob").fadeIn(150);
 });
 // 偵測首頁資訊換商品
 var value ;

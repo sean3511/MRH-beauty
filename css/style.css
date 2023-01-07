@@ -192,6 +192,32 @@ input[type=radio]:checked+label {
 .ig09{
     background-image: url(/image/news_image/ig09.jpg);
 }
+.cans01{
+    background-image: url(/image/news_image/cans01.jpg);
+    background-position: center;
+}
+.cans02{
+    background-image: url(/image/news_image/cans02.jpg);
+}
+.cans03{
+    background-image: url(/image/news_image/cans03.jpg);
+}
+.cans04{
+    background-image: url(/image/news_image/cans04.jpg);
+    background-position: center;
+}
+.cans05{
+    background-image: url(/image/news_image/cans05.jpg);
+    background-position: top center;
+}
+.cans06{
+    background-image: url(/image/news_image/cans06.jpg);
+    background-position: top center;
+}
+.cans07{
+    background-image: url(/image/news_image/cans07.png);
+    background-position: center 30%;
+}
 .pdbg{
     display: flex;
     justify-content: center;
