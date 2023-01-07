@@ -794,6 +794,8 @@ input[type=radio]:checked+label {
 .AS-content-group{
     margin-top: 20vh;
     text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 .AS-first-group{
     text-align: center;
@@ -1091,6 +1093,12 @@ input#img-4:checked ~ .nav-dots #img-dot-4
 }
  
 @media(max-width: 1024px) {
+    .AS-content-group{
+        flex-direction: column;
+    }
+    .Amelia-logo-m{
+        order: -1;
+    }
     .ab-image{
         margin-top: 40px;
     }
