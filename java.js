@@ -118,11 +118,11 @@ jQuery(document).ready(function ($) {
 // 轉換產品文字
     $('[name=radio-btn]').change(function () {
         if($('#img-1').is(":checked")){
-            $('.main-pd-title').html("膠原光采修復精華液");
-            $('.main-pd-subtitle').html("嫩白潔淨保養 重生肌膚生命");
-            $('.maib-pd-content').html("全方位修護 讓肌膚再現光采使用Liposome微脂囊技術，雙層包覆多種精華滲透肌底。天然賽洛美淡化斑點，燕窩緊緻拉提。高效修復，無刺激性。");
-            $('.main-pd-price').html("NT$2,689");
-            $('.main-pd-content').html("容量：35ml <br>產地 : 台灣 <br>保存期限：36個月<br>*醫美雷射術後保養效果佳。");
+            $('.main-pd-title').html("能量韌髮機能水");
+            $('.main-pd-subtitle').html("強健髮根、維護頭皮健康丶創造毛髮蓬鬆感");
+            $('.maib-pd-content').html("金色之光，讓你的內在更有力量、更有勇氣，將這巨大的光能量由頭頂接地，讓你的身體在劇烈變化中保持穩定、滋養與支持，那是一種深層的活力連結，能夠給你穩固與平衡的感受。");
+            $('.main-pd-price').html("NT$680");
+            $('.main-pd-content').html("容量：50ml <br>保存期限:3年")
         }
         if($('#img-2').is(":checked")){
             $('.main-pd-title').html("膠原柔白面膜");
