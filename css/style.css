@@ -496,6 +496,9 @@ input[type=radio]:checked+label {
     margin: 0 auto;
     padding: 0 4%;
 }
+.margin-botoom-40{
+    margin-bottom: 40px;
+}
 /* 手機板HAM*/
 .ham {
     display: none;
