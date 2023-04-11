@@ -125,18 +125,18 @@ jQuery(document).ready(function ($) {
             $('.main-pd-content').html("容量：50ml <br>保存期限:3年")
         }
         if($('#img-2').is(":checked")){
-            $('.main-pd-title').html("膠原柔白面膜");
-            $('.main-pd-subtitle').html("10分鐘浸潤 零死角水感舒活");
-            $('.maib-pd-content').html(" 凍狀面膜 輕鬆打造肌膚水床十分鐘美白、補水、嫩膚 三效合一完美肌膚狀態 妝感更服貼");
-            $('.main-pd-price').html("NT$1,290");
-            $('.main-pd-content').html("容量：30ml <br>產地 : 台灣 <br>保存期限：36個月");
+            $('.main-pd-title').html("合一結構乳");
+            $('.main-pd-subtitle').html("粉紅之光，幸福能量無所不在");
+            $('.maib-pd-content').html("適用於染髮、捲髮(受損髮~極度受損髮)，可用於保濕、護色、增添髮色光澤、修護毛躁髮質、塑型、滋潤有彈度，");
+            $('.main-pd-price').html("NT$1,480");
+            $('.main-pd-content').html("容量：120ml <br> 保存期限：36個月");
         }
         if($('#img-3').is(":checked")){
-            $('.main-pd-title').html("緊緻修護滋養油");
-            $('.main-pd-subtitle').html("細緻潤膚 啟動深層修護");
-            $('.maib-pd-content').html("純植物油調和，高親膚性。一滴改善缺水危肌，鞏固皮脂健康。持久緊緻肌膚、淡化細紋。");
-            $('.main-pd-price').html("NT$1,590");
-            $('.main-pd-content').html("容量：50ml <br>產地 : 台灣 <br>保存期限：36個月");
+            $('.main-pd-title').html("活力結構乳");
+            $('.main-pd-subtitle').html("薄荷綠之光，回復青春，永遠有活力");
+            $('.maib-pd-content').html("染髮、直髮、捲髮(一般髮~受損髮)，可用於保濕、護色、增添髮色光澤、修護毛躁髮質");
+            $('.main-pd-price').html("NT$1,280");
+            $('.main-pd-content').html("容量：120ml <br> 保存期限：36個月");
         }
         if($('#img-4').is(":checked")){
             $('.main-pd-title').html("海洋膠原植萃輕盈控油噴霧");
