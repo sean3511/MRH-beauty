@@ -61,43 +61,43 @@ $("#CANS-cob").click(function(){
     $(".CANS-cob").fadeIn(150);
 });
 // 偵測首頁資訊換商品
-var value ;
-$( ".item1" ).click(function() {
-    var link = document.querySelector(".item1");
-    var value1 = "img-1";
-    var value2 = "img-dot-1";
-    var value3 = "fnt01";
-    link.onclick = function jumpPage() {
-        window.open(`product.html?${value1}&${value2}&${value3}`);
-    }
-    });
-$( ".item2" ).click(function() {
-    var link = document.querySelector(".item2");
-    var value1 = "img-2";
-    var value2 = "img-dot-2";
-    var value3 = "fnt02";
-    link.onclick = function ChangePage() {
-        window.open(`product.html?${value1}&${value2}&${value3}`);
+// var value ;
+// $( ".item1" ).click(function() {
+//     var link = document.querySelector(".item1");
+//     var value1 = "img-1";
+//     var value2 = "img-dot-1";
+//     var value3 = "fnt01";
+//     link.onclick = function jumpPage() {
+//         window.open(`product.html?${value1}&${value2}&${value3}`);
+//     }
+//     });
+// $( ".item2" ).click(function() {
+//     var link = document.querySelector(".item2");
+//     var value1 = "img-2";
+//     var value2 = "img-dot-2";
+//     var value3 = "fnt02";
+//     link.onclick = function ChangePage() {
+//         window.open(`product.html?${value1}&${value2}&${value3}`);
 
-}});
-$( ".item3" ).click(function() {
-    var link = document.querySelector(".item3");
-    var value1 = "img-3";
-    var value2 = "img-dot-3";
-    var value3 = "fnt03";
-    link.onclick = function ChangePage() {
-        window.open(`product.html?${value1}&${value2}&${value3}`);
+// }});
+// $( ".item3" ).click(function() {
+//     var link = document.querySelector(".item3");
+//     var value1 = "img-3";
+//     var value2 = "img-dot-3";
+//     var value3 = "fnt03";
+//     link.onclick = function ChangePage() {
+//         window.open(`product.html?${value1}&${value2}&${value3}`);
 
-}});
-$( ".item4" ).click(function() {
-    var link = document.querySelector(".item4");
-    var value1 = "img-4";
-    var value2 = "img-dot-4";
-    var value3 = "fnt04";
-    link.onclick = function ChangePage() {
-        window.open(`product.html?${value1}&${value2}&${value3}`);
+// }});
+// $( ".item4" ).click(function() {
+//     var link = document.querySelector(".item4");
+//     var value1 = "img-4";
+//     var value2 = "img-dot-4";
+//     var value3 = "fnt04";
+//     link.onclick = function ChangePage() {
+//         window.open(`product.html?${value1}&${value2}&${value3}`);
 
-}});
+// }});
 
 jQuery(document).ready(function ($) {
     var valueFromPageA = window.location.search;
