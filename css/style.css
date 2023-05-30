@@ -1108,6 +1108,9 @@ input#img-4:checked ~ .nav-dots #img-dot-4
 }
  
 @media(max-width: 1024px) {
+    video{
+        width: 90vw;
+    }
     .AS-content-group{
         flex-direction: column;
     }
