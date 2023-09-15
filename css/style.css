@@ -985,6 +985,10 @@ input#img-4:checked ~ .nav-dots #img-dot-4
     }
 
 /*  */
+.mobile-icon-size{
+    height: 48px;
+    width: 48px;
+}
 /* 背景 */
 @media(min-width: 1025px){
     .flex-colcum{
