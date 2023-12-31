@@ -228,6 +228,21 @@ input[type=radio]:checked+label {
     background-image: url(/image/news_image/cans07.png);
     background-position: center 30%;
 }
+.cans08{
+    background-image: url(/image/news_image/cans08.jpg);
+}
+.cans09{
+    background-image:url(/image/news_image/cans09.jpg);
+}
+.cans10{
+    background-image:url(/image/news_image/cans10.jpg);
+}
+.cans11{
+    background-image:url(/image/news_image/cans11.jpg);
+}
+.cans12{
+    background-image:url(/image/news_image/cans12.jpg);
+}
 .pdbg{
     display: flex;
     justify-content: center;
@@ -812,6 +827,9 @@ input[type=radio]:checked+label {
     display: flex;
     flex-direction: row;
     padding: 24px;
+}
+.justify-center{
+    justify-content: center;
 }
 .AS-first-group{
     text-align: center;
