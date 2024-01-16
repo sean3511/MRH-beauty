@@ -243,6 +243,9 @@ input[type=radio]:checked+label {
 .cans12{
     background-image:url(/image/news_image/cans12.jpg);
 }
+.cans13{
+    background-image:url(/image/12.24_update/S__79437837.jpg);
+}
 .pdbg{
     display: flex;
     justify-content: center;
